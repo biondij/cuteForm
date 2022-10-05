@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Form try outs</title>
+</head>
+
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <div class="icon">
+                <img src="/newsletter.png" alt="">
+            </div>
+            <legend id="fieldLegend">Sign up for the newsletter!</legend>
+            <div class="dados">
+                <label for="name" hidden>Name</label>
+                <input type="text" id="name" placeholder="Your name" required>
+                <label for="email" hidden>E-mail</label>
+                <input type="email" name="email" id="email" placeholder="E-mail" required>
+            </div>
+
+            <div class="newsletter">
+                <legend>Choose one of our newsletters</legend>
+                <div class="radioInput">
+                    <div>
+                        <label for="weekly">Weekly</label>
+                        <input type="radio" name="radio" id="weekly">
+                    </div>
+                    <div>
+                        <label for="monthly">Monthly</label>
+                        <input type="radio" name="radio" id="monthly">
+                    </div>
+                    <div>
+                        <label for="fortnightly">Fortnightly</label>
+                        <input type="radio" name="radio" id="fortnightly">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="feedback">
+                <legend>We would love to hear from you</legend>
+                <label for="feedbackSection" hidden>Feedback Section</label>
+                <input size="50" type="text" id="feedbackSection" maxlength="400"
+                    placeholder="Leave us your feedback :)">
+            </div>
+            <button>Submit</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
